@@ -7,7 +7,7 @@ class TodoItemsController < ApplicationController
   # GET /todo_items
   # GET /todo_items.json
   def index
-    @todo_items = TodoItem.all
+    @todo_items = @todo_list.todo_items.all
   end
 
   # GET /todo_items/1

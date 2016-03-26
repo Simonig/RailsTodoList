@@ -1,5 +1,4 @@
 <p id="notice"><%= notice %></p>
-<h1>holholasas</h1>
 
 <table>
   <thead>
@@ -22,7 +21,7 @@
         <td><%= link_to 'Show', [@todo_list, todo_item] %></td>
    
         
-        <td><%= link_to 'Destroy', [@todo_list, todo_item], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', [@todo_list, todo_item], method: :delete %></td>
       </tr>
     <% end %>
   </tbody>
