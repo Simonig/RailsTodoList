@@ -115,32 +115,7 @@ from module 2.
 5. Run the rspec test(s) to receive feedback. `rspec` must be run from the root 
 directory of your application.  There are several test files provided for this 
 assignment. Many of those files are designed to test your code at specific points 
-as you proceed through the technical requirements of this assignment.  As such, 
-many tests will fail if executed after additional technical requirements have 
-been completed. Initially, majority of tests will (obviously) fail until 
-you complete the requirements necessary for them to pass.
 
-    ```shell
-    $ rspec 
-    ...
-    (N) examples, 1 failure, (N) pending
-    ```
-
-    To focus test feedback on a specific step of the requirements, add the specific
-    file (path included) with the tests along with "-e rq##" to the rspec command 
-    line to only evaluate a specific requirement. Pad all step numbers to two 
-    digits.
-
-    ```shell
-    $ rspec spec/start_spec.rb -e rq1.0
-    ...
-    (N) example, 0 failures
-    ```
-
-7. Implement your solution to the technical requirements and use the rspec tests 
-to help verify your completed solution.
-
-8. Submit your Rails app solution for grading.
 
 ### Technical Requirements
 
@@ -818,36 +793,5 @@ been fully enabled. Use the `end2end` test when complete. Each of the
 individual requirements list specific specs that can be used during 
 the time of that development.
 
-### Submission
 
-Submit an .zip archive (other archive forms not currently supported)
-with your solution root directory as the top-level (e.g., your Gemfile
-and sibling files must be in the root of the archive and *not* in a
-sub-folder.  The grader will replace the spec files with fresh copies
-and will perform a test with different query terms.
-
-```text
-|-- app
-|   |-- assets
-|   |-- controllers
-|   |-- helpers
-|   |-- mailers
-|   |-- models
-|   `-- views
-|-- bin
-|-- config
-|-- config.ru
-|-- db
-|-- Gemfile
-|-- Gemfile.lock
-|-- lib
-|-- log
-|-- public
-|-- Rakefile
-|-- README.rdoc
-|-- test
-`-- vendor
-```
-
-#### Last Updated: 2015-10-25
 
