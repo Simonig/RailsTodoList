@@ -1,15 +1,3 @@
-## Assignment for Module #4: Nested Resources, Security, and Pagination
-The overall goal of this assignment is to assess your ability to implement:
-
-  * Nested resources
-  * Authenication
-  * Authorization
-  * Pagination
-
-The functional goal of this assignment to implement a web application to 
-manage TodoItems.
-
-### Functional Requirements
 
 1. Start with the application completed in module 2. This will have defined 
 all the models and relationships required for this assignment:
